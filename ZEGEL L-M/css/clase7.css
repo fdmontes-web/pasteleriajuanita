@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@font-face {
+   font-family: Italianno-Regular;
+   src: url(/fuentes/Italianno-Regular.ttf) ;
+}
+
+
+h1{
+    font-family: Italianno-Regular;
+    font-size: 30pt;
+}
+
+h2{
+   font-family: Italianno-Regular;
+   font-size: 22pt;
+}
+
+p{
+  font-family: "Space Grotesk" sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: justify;
+  padding: 30px;
+}
+
+.imgprod{
+    width: 280px;
+    box-shadow: 10px 10px 15px rgb(147, 147, 147);
+   border-radius: 15px;
+   float: left;
+   /* padding: 30px; */
+   margin: 30px;
+   
+   
+
+}

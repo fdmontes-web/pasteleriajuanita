@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0 0 15px;
+    overflow: hidden;
+
+}
+
+.banner{
+    display: flex;
+    width: 300%;
+    animation-name:abanner ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.banneritem{
+    width: 1200px;
+}
+
+.banneritem img{
+    height: 450px;
+}
+
+@keyframes abanner{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
+
+
+
+
+
+
+
+nav{
+    width: 1200px;
+    height: 75px;
+    background-color: black;
+    margin: auto;
+}
+
+section{
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(246, 132, 241);
+    margin: auto;
+}
+
+footer{
+    width: 1200px;
+    height: 75px;
+    background-color: black;
+    margin: auto;
+}

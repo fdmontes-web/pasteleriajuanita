@@ -1,0 +1,94 @@
+/* selector universal */
+*{
+    /* tipo de fuente */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 249, 248);
+}
+
+
+h2{
+    /* color de fuente */
+    color: rgb(244, 187, 133); 
+
+    /* color de fondo */
+    background-color: rgb(4, 128, 42);
+
+    /* modificar el ancho  */
+    width: 1000px;
+
+    /* centrar elementos */
+    margin: auto;
+
+    /* agregar espacio interno */
+    padding: 16px;
+
+    /* alinear texto al centro */
+    text-align: center;
+
+    /* margen externo */
+    margin-top:100px ;
+
+    /* margen inferior */
+    margin-bottom: 30px ;
+
+    /* redondear bordes */
+    border-radius:15px ;
+}
+
+/* Aplicar estilos a los párrafos */
+p{
+    /* modificar ancho */
+    width: 700px;
+
+    /* centrar párrafo */
+    margin: auto;
+
+    /* alinear texto justificado */
+    text-align: justify;
+
+    /* color de fondo */
+    background-color: rgb(235, 232, 228);
+
+    /* margen interno */
+    padding: 40px;
+
+    /* margen superior */
+    margin-top: 20px;
+
+   /* redondear esquinas */
+    border-radius: 15px 0px;
+
+    /* tipos de borde solido
+    border: 3px solid rgb(239, 169, 31);
+
+    /* tipos de borde guiones
+    border: 3px dashed rgb(239, 169, 31); */
+
+    /* tipos de borde puntos
+    border: 3px dotted rgb(239, 169, 31); */
+
+    /* tipos de borde doble */
+    /* border: 3px double rgb(239, 169, 31);  */
+}
+
+/* selector de atributo id */
+#pnosotros{
+    background-color: rgba(0, 0, 255, 0);
+}
+
+
+
+.imagen{
+    width: 550px;
+
+    /* convertir en elipse los bordes */
+    border-radius: 50%;
+
+    box-shadow: 5px 5px 10px rgb(133, 132, 132);
+}
+
+#banner{
+    width: 1300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(133, 132, 132);
+}
