@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 1fr;
+    height: 300px;
+    background-image: url(/img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 600px;
+    margin: auto;
+}
+
+nav ul{
+    /* quitar viñeta */
+    list-style-type: none;
+}
+
+nav a{
+    /* quitar subrayado */
+    text-decoration: none;
+    /* modificar color de texto */
+    color:beige;
+    /* modificar color de fondo */
+    background-color: rgb(28, 28, 28);
+    padding: 10px 15px;
+    display: block;
+    width:110px ;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+.enlace{
+    float: left;
+}
+
+/* usar pseudocódigo hover para cambiar de color al pasar el mouse */
+
+nav a:hover{
+    background-color: rgb(98, 98, 98);
+}
+
+nav li ul{
+    position: absolute;
+    display: none;
+}
+
+/* usar pseudocódigo hover para mostrar el sub menú */
+
+nav li:hover >ul{
+    display: block;
+}

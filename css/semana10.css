@@ -1,0 +1,72 @@
+
+/* Ejemplo 1 */
+/* .forma{
+    width: 100px;
+    background-color: aquamarine;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.forma:hover{
+    background-color: blueviolet;
+    width: 200px;
+    transition-timing-function:ease-in;
+    background-image: url(/img/banner4.png);
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0);
+    scale: 2;
+}
+
+.forma p{
+    text-align: center;
+    padding: 30px;
+} */
+*{
+    margin: 0;
+}
+
+header{
+    width: 1fr;
+    height: 500px;
+    background-color: bisque;
+    animation-name: abanner;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes abanner{
+    0%{background-image: url(/img/banner1.png);background-size: cover; background-position: center;}
+    40%{background-image: url(/img/banner3.png);background-size: cover; background-position: center;}
+    100%{background-image: url(/img/banner4.png);background-size: cover; background-position: center;}
+}
+
+.cuadro{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.466);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.texto{
+    width: 500px;
+    background-color: rgba(142, 116, 31, 0.702);
+    color: aliceblue;
+    padding: 25px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.texto h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.texto p{
+    font-family: Arial, Helvetica, sans-serif;
+}

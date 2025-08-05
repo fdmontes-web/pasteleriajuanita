@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(242, 232, 252);
+}
+header{
+    background-image: url(/img/banner\ 2.png);
+    width: 1fr;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 1000px;
+    height: 75px;
+    background-color: #f36e38;
+    margin: auto;
+}
+
+section{
+    width:1000px ;
+    background-color: rgb(181, 181, 181);
+    margin: auto;
+}
+
+.table{
+    /* Asignar comportamiento de tabla */
+    display: table;
+    width:70%;
+    /* border-collapse: collapse; */
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+.row{
+    /* asignar comportamiento de fila */
+    display: table-row;
+    background-color: rgb(110, 9, 140);
+}
+
+.cell{
+    /* asignar comportamiento de celda */
+    display: table-cell;
+    border: 2px solid;
+    padding: 12px;
+    text-align: center;
+    align-content: center;
+}
+
+

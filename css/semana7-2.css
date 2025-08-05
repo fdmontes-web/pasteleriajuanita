@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/img/banner\ postres.png);
+    width: 1fr;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 850px;
+    height: 75px;
+    background-color:#ea2d20;
+    border-radius: 20px;
+    margin: auto;
+}
+
+section{
+    width: 1000px;
+    background-color: #fae3e2;
+    /* height: 450px; */
+    margin: auto;
+}
+
+.audio{
+    width: 50%;
+    height: 50px;
+    /* background-color: black; */
+    padding-top: 30px;
+    margin: auto;
+    
+}
+
+.video{
+    width: 50%;
+    margin: auto;
+    
+    padding-top: 30px;
+
+}

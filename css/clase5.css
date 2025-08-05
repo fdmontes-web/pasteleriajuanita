@@ -1,0 +1,80 @@
+/* Enlazar con tipografia desde google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+/* Enlazar con fuente nueva descargada */
+@font-face{
+    src: url(/fuentes/DeliciousHandrawn-Regular.ttf);
+    
+    font-family: DeliciousHandrawn-Regular;
+}
+
+
+
+/* Estilo para etiqueta padre body */
+body{
+    color: rgb(47, 46, 46);
+    background-color: rgb(241, 241, 234);
+}
+
+
+
+h2{
+    color: #eecbf2;
+    background-color: rgb(41, 41, 39);
+    width: 1000px;
+    /* Centrar el texto */
+    margin: auto;
+    text-align: center;
+    /* usar padding para margen interno */
+    padding: 10px;
+    /* Redondear bordes */
+    border-radius:10px ;
+    font-family: DeliciousHandrawn-Regular;
+   }
+
+
+/* Para llamar al id se uisará el #    */
+#tithistoria{
+    background-color: rgb(202, 160, 243);
+    color: rgb(41, 41, 41);
+    font-family:fantasy;
+} 
+
+/* Para llamar a una clase se usará el punto */
+.titlocales{
+    font-size: 28pt;
+    color: blueviolet;
+}
+
+p{
+   width: 1000px; 
+   margin: auto;
+   text-align: justify;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+img{
+    border-radius: 20px 0px;
+    width: 25%;
+    
+    
+}
+
+#banner{
+    border-radius: 0px;
+    width: 100%;
+}
+
+#imglima{
+    float: left;
+    width: 200px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
